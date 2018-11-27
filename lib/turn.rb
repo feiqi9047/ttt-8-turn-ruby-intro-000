@@ -8,7 +8,12 @@ def display_board(board)
 end 
 
 def position_taken?(board, index)
-  if board[index]==
+  if board[index]== " "||""||NIL
+    FALSE
+  else 
+    TRUE
+  end
+end
 
 def valid_move?(board, index)
   if 
