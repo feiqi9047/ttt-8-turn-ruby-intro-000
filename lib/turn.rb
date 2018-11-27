@@ -8,7 +8,7 @@ def display_board(board)
 end 
 
 def input_to_index(input)
-  input = input.to i -1
+  input = input.to_i -1
   
 def position_taken?(board, index)
   if board[index]== " "||board[index]==""||board[index]==NIL
